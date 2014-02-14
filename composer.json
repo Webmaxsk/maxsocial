@@ -1,5 +1,5 @@
 {
-	"name": "Webmaxsk/maxsocial",
+	"name": "webmaxsk/maxsocial",
 	"description": "Silverstripe module for basic social setup (fb/opengraph, googleplus) and seo (canonical links and publisher in head)",
 	"type": "silverstripe-module",
 	"license": "BSD-3-Clause",
