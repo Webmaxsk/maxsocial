@@ -1,0 +1,18 @@
+{
+	"name": "Webmaxsk/maxsocial",
+	"description": "Silverstripe module for basic social setup (fb/opengraph, googleplus) and seo (canonical links and publisher in head)",
+	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe", "seo", "opengraph", "facebook"],
+	"authors": [
+	{
+		"name": "Pali Ondras",
+		"email": "ondras@webmax.sk"
+	}
+	],
+	"require":
+	{
+		"silverstripe/framework": "3.1.*",
+		"silverstripe/cms": "3.1.*"
+	}
+}
