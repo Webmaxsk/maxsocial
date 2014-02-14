@@ -1,0 +1,9 @@
+---
+Name: maxsocial-extensions
+---
+SiteConfig:
+  extensions:
+    - SocialSiteConfig
+Page_Controller:
+  extensions:
+    - SocialPageControllerExtension
