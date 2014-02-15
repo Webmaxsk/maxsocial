@@ -1,0 +1,136 @@
+{
+  "name": "maxsocial",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "ccf7ed45e7f05a89376f38abaa9d7d13",
+      "css": "twitter-circled",
+      "code": 59397,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "96aafeab29734d1510805687f7695f8f",
+      "css": "facebook-circled",
+      "code": 59392,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "fef29532e2318a0c604f34947024b990",
+      "css": "gplus-circled",
+      "code": 59409,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "d0c177a8e1688175c3445cc6b25bcc90",
+      "css": "linkedin-circled",
+      "code": 59410,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "e566d3f1d24f22981f6552d5188e7265",
+      "css": "gplus",
+      "code": 59395,
+      "src": "zocial"
+    },
+    {
+      "uid": "cc4e62d1721c863fdc6944d2fd87521d",
+      "css": "linkedin",
+      "code": 59405,
+      "src": "zocial"
+    },
+    {
+      "uid": "b1ec8e90c2c85cf0035849980a3789b3",
+      "css": "twitter",
+      "code": 59399,
+      "src": "zocial"
+    },
+    {
+      "uid": "57a4f84c40a0c44d47387105f162a427",
+      "css": "youtube",
+      "code": 59396,
+      "src": "zocial"
+    },
+    {
+      "uid": "e47352cd4c5e069288b29a2c9ab9d305",
+      "css": "vimeo",
+      "code": 59403,
+      "src": "zocial"
+    },
+    {
+      "uid": "6f7586c6f99798c3c1de6123d1f6cfa9",
+      "css": "facebook",
+      "code": 59404,
+      "src": "zocial"
+    },
+    {
+      "uid": "a0b54315916e54beb4737562e203f674",
+      "css": "behance-squared",
+      "code": 59406,
+      "src": "elusive"
+    },
+    {
+      "uid": "c99e966e3d22ec0b9d8678fd524e5512",
+      "css": "facebook-squared",
+      "code": 59394,
+      "src": "elusive"
+    },
+    {
+      "uid": "a58fe946fe31826f0b19cb4dfaaf13d2",
+      "css": "gplus-squared",
+      "code": 59400,
+      "src": "elusive"
+    },
+    {
+      "uid": "09cad6e46ec29b279626434802012bba",
+      "css": "linkedin-squared",
+      "code": 59407,
+      "src": "elusive"
+    },
+    {
+      "uid": "0d024b966c51aff0cd02527eb7f21950",
+      "css": "vimeo-squared",
+      "code": 59402,
+      "src": "elusive"
+    },
+    {
+      "uid": "990d39e5b7e9750c55d2593b1cc61a0a",
+      "css": "youtube-squared",
+      "code": 59408,
+      "src": "elusive"
+    },
+    {
+      "uid": "ebbe0cc0600cb69375abc20af545967f",
+      "css": "facebook-radius",
+      "code": 59393,
+      "src": "websymbols"
+    },
+    {
+      "uid": "335bfd225407f1205eddd3d47744e6be",
+      "css": "vimeo-radius",
+      "code": 59398,
+      "src": "websymbols"
+    },
+    {
+      "uid": "0e5740f288f6f5cb04eef63f7f0a1506",
+      "css": "gplus-radius",
+      "code": 59411,
+      "src": "websymbols"
+    },
+    {
+      "uid": "8870252f5da59a63564fb6790a347c8e",
+      "css": "linkedin-radius",
+      "code": 59412,
+      "src": "websymbols"
+    },
+    {
+      "uid": "2d3ce9463ed5525c6faa01f84c957843",
+      "css": "youtube-radius",
+      "code": 59413,
+      "src": "websymbols"
+    }
+  ]
+}

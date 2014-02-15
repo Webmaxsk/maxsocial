@@ -12,7 +12,8 @@ class SocialSiteConfig extends DataExtension {
 		"fbURL" => "Varchar(127)",
 		"twitterURL" => "Varchar(127)",
 		"vimeoURL" => "Varchar(127)",
-		"youtubeURL" => "Varchar(127)"
+		"youtubeURL" => "Varchar(127)",
+		"linkedInURL" => "Varchar(127)"
 	);
 	
 	private static $has_one = array(
@@ -31,6 +32,7 @@ class SocialSiteConfig extends DataExtension {
 		$fields->addFieldToTab("Root.Social", TextField::create("twitterURL", "Adresa pre Twitter"));	
 		$fields->addFieldToTab("Root.Social", TextField::create("vimeoURL", "Adresa pre Vimeo"));	
 		$fields->addFieldToTab("Root.Social", TextField::create("youtubeURL", "Adresa pre YouTube"));	
+		$fields->addFieldToTab("Root.Social", TextField::create("linkedInURL", "Adresa pre LinkedIn"));	
     }
 	
 }
