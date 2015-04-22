@@ -14,5 +14,5 @@
 			<% end_if %>
 			<meta property="og:type" content="company" />
 			<meta property="og:url" content="$absoluteLink" />
-			<% if $SiteConfig.ogImageID %><meta property="og:image" content="$SiteConfig.ogImage.Link" /><% end_if %> 
+			<% if $SiteConfig.ogImageID %><meta property="og:image" content="$SiteConfig.ogImage.AbsoluteURL" /><% end_if %> 
 		<% end_if %>
