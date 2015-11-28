@@ -8,6 +8,7 @@ class SocialSiteConfig extends DataExtension {
 		"gPlusButton" => "HTMLVarchar(127)",
 		"useOpenGraph" => "Boolean",
 		"ogSiteName" => "Varchar(64)",
+		"fbAppID" => "Varchar(32)",
 		"fbAdmins" => "Varchar(127)",
 		"fbURL" => "Varchar(127)",
 		"twitterURL" => "Varchar(127)",
@@ -26,7 +27,8 @@ class SocialSiteConfig extends DataExtension {
 		$fields->addFieldToTab("Root.Social", TextField::create("gPlusButton", "Google Plus Button")->setDescription("Aby sa button začal zobrazovať, treba uviesť atribúty g+ buttonu, t.j. minimálne veľkosť buttonu v tvare: <strong>data-size=\"tall\"</strong> (small|medium|standard|tall), viac info <a href='https://developers.google.com/+/web/+1button/#tag_parameters' target='_blank'>v g+ dokumentácii</a>.<br>Šablóna musí podporovať vloženie g+ buttonu!"));		
 		$fields->addFieldToTab("Root.Social", CheckboxField::create("useOpenGraph", "Pridať Open Graph do hlavičky?"));	
 		$fields->addFieldToTab("Root.Social", TextField::create("ogSiteName", "Open Graph - Názov stránky")->setDescription("Ak nezadáte, zobrazí sa Titulok webu, t.j. <strong>".$this->owner->Title."</strong>"));
-		$fields->addFieldToTab("Root.Social", UploadField::create("ogImage", "Open Graph obrázok"));	
+		$fields->addFieldToTab("Root.Social", UploadField::create("ogImage", "Open Graph obrázok"));
+		$fields->addFieldToTab("Root.Social", TextField::create("fbAppID", "Facebook App ID")->setDescription("If set, Facebook admin field bellow will be ignored"));		
 		$fields->addFieldToTab("Root.Social", TextField::create("fbAdmins", "Facebook admin")->setDescription("Bez zadania Facebook ID sa nevytvorí prepojenie Web &#8596; Facebook. Facebook ID zistíte napr. tu: <a href='http://findmyfacebookid.com/' target='_blank'>findmyfacebookid.com</a>"));		
 		$fields->addFieldToTab("Root.Social", TextField::create("fbURL", "Adresa pre Facebook"));
 		$fields->addFieldToTab("Root.Social", TextField::create("twitterURL", "Adresa pre Twitter"));	
