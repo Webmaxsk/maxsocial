@@ -3,8 +3,12 @@
 			<link rel="publisher" href="$SiteConfig.Publisher" />
 		<% end_if %>
 
-        <% if $SiteConfig.fbAdmins %>
-        	<meta property="fb:admins" content="$SiteConfig.fbAdmins" />
+        <% if $SiteConfig.fbAdmins || $SiteConfig.fbAppID %>
+        	<% if $SiteConfig.fbAppID %>
+        		<meta property="fb:app_id" content="$SiteConfig.fbAppID" />
+        	<% else %>
+        		<meta property="fb:admins" content="$SiteConfig.fbAdmins" />
+        	<% end_if %>	
         <% end_if %>
         <% if $SiteConfig.useOpenGraph %>
 			<meta property="og:title" content="<% if $MetaTitle %>$MetaTitle.XML<% else %>$Title.XML<% end_if %>" />
