@@ -1,9 +1,10 @@
 ---
-Name: maxsocial-extensions
+Name: maxsocial_extensions
 ---
-SiteConfig:
+SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - SocialSiteConfig
-Page_Controller:
+    - Webmaxsk\MaxSocial\SocialSiteConfig
+
+PageController:
   extensions:
-    - SocialPageControllerExtension
+    - Webmaxsk\MaxSocial\SocialPageControllerExtension

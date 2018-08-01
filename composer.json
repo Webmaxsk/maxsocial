@@ -1,18 +1,25 @@
 {
-	"name": "webmaxsk/maxsocial",
-	"description": "Silverstripe module for basic social setup (fb/opengraph, googleplus) and seo (canonical links and publisher in head)",
-	"type": "silverstripe-module",
-	"license": "BSD-3-Clause",
-	"keywords": ["silverstripe", "seo", "opengraph", "facebook"],
-	"authors": [
-	{
-		"name": "Pali Ondras",
-		"email": "ondras@webmax.sk"
-	}
-	],
-	"require":
-	{
-		"silverstripe/framework": "3.2 - 4.0",
-		"silverstripe/cms": "3.2 - 4.0"
-	}
+    "name": "webmaxsk/maxsocial",
+    "description": "Silverstripe module for basic social setup (fb/opengraph, googleplus) and seo (canonical links and publisher in head)",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "keywords": ["silverstripe", "seo", "opengraph", "facebook"],
+    "authors": [
+        {
+            "name": "Pali Ondras",
+            "email": "ondras@webmax.sk"
+        },
+        {
+            "name": "Rastislav Brandobur",
+            "email": "brandobur@webmax.sk"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webmaxsk\\MaxSocial\\": "src/"
+        }
+    }
 }
